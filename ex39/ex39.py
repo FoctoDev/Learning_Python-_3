@@ -36,6 +36,7 @@ print("В Турции есть город: ", cities[states['Турция']])
 print("В Германии есть город: ", cities[states['Германия']])
 
 # вывод аббревиатур всех стран
+# метод items() возвращает пары (ключ, значение)
 print('-' * 10)
 for state, abbrev in list(states.items()):
     print(f"{state} имеет аббревиатуру {abbrev}")
