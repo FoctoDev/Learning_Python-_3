@@ -56,17 +56,17 @@ for v in capital_сities.values():
 
 # подсчет количества регионов в словаре
 print('-' * 10)
-print(f"В словаря {len(regions)} регионов.")
+print(f"В словаре {len(regions)} регионов.")
 
 #
 region_74 = regions.pop('Челябинская область')
 print('-' * 10)
-print(f"Код Челбяинской область: {region_74}")
+print(f"Код Челябинской область: {region_74}")
 
 # копирование словаря
 dict = regions.copy()
 print('-' * 10)
-print(f"Копия словарьа:\n{dict}")
+print(f"Копия словаря:\n{dict}")
 
 # очистим словарь
 dict = dict.clear()
