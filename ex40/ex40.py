@@ -1,14 +1,18 @@
 class Song(object):
+    """Класс песня"""
 
     def __init__(self, lyrics):
+        """Инициализация текста песен"""
         self.lyrics = lyrics
 
     def sing_me_a_song(self):
+        """Выводит текст песни"""
         for line in self.lyrics:
             print(line)
         print('-' * 10)
 
     def text_in_line(self):
+        """Выводит текст песни в одну строку."""
         print(' '.join(self.lyrics))
 
 happy_bday = Song(["Не могу я тебе в день рождения",
