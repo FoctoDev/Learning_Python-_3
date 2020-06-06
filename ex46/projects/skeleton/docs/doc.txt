@@ -1,0 +1,8 @@
+Для запуска программы активировать виртуальное окружение
+C:\Users\Focto>.\.venvs\lpthw\Scripts\activate
+
+Перейти в нужный каталог
+(lpthw) C:\Users\Focto>cd github\Learning_Python_3\ex46\projects\skeleton
+
+Запустить программу
+> nosetests
