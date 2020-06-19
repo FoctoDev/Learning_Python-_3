@@ -6,6 +6,6 @@ def is_palindrome(text):
 
 something = input('Введите текст: ')
 if (is_palindrome(something)):
-    print("Да, это полиндром")
+    print("Да, это палиндром")
 else:
-    print("Нет, это не полиндром")
+    print("Нет, это не палиндром")
