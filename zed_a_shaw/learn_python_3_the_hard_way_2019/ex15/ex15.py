@@ -1,0 +1,16 @@
+from sys import argv
+
+script, filename = argv
+
+txt = open(filename, encoding="utf-8")
+
+print(f"Содержимое файла {filename}:")
+print(txt.read())
+
+print("Снова введите имя файла:")
+file_again = input("> ")
+
+txt_again = open(file_again, encoding="utf-8")
+
+# выведем не весь текст, а только первые 50 символов
+print(txt_again.read(50) + '...')
